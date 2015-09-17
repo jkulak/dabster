@@ -1,0 +1,550 @@
+/* all links red */
+a {
+    color: #d9012a;
+}
+
+/* all images no border */
+a img {
+    border: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+    width: 100%;
+    margin-bottom: 30px;
+    line-height: 22px;
+}
+
+table th {
+    border-bottom: 1px dotted #AAA;
+    background-color: #DDD;
+    padding: 3px 0 4px 5px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 3px 0 4px 5px;
+    border-bottom: 1px solid #DDD;
+}
+
+p {
+    line-height: 22px;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+/* all photos border */
+.photo {
+    border: 4px solid #444;
+}
+
+/*
+******************************************************** Page
+*/
+#page {
+    width: 900px;
+    margin: 0 auto;
+    background: white url(/sites/all/themes/drupster/images/head.jpg) no-repeat 58% 30px;
+    overflow: hidden;
+}
+
+/*
+******************************************************** Main
+*/
+#main {
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+/*
+******************************************************** Triptych
+*/
+#triptych {
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#triptych h2 {
+    font-size: 18px;
+    line-height: 24px;
+}
+/*
+******************************************************** Header
+*/
+#header {
+    padding-left: 10px;
+    margin: 15px 0 5px 0;
+    color: #000;
+}
+
+#header a {
+    /*color: #fff;*/
+}
+
+#header .logo {
+    float: left;
+    margin-bottom: 5px;
+}
+
+#header .subtext {
+    width: 300px;
+    margin-bottom: 6px;
+}
+
+#header ul {
+    list-style-type: none;
+    line-height: 23px;
+    margin: 4px 30px 0 0 ;
+}
+
+/*
+******************************************************** Language block
+*/
+#block-locale-language {
+    font-size: 11px;
+}
+
+#block-locale-language ul li {
+    display: inline;
+}
+
+#block-locale-language ul .first {
+    margin-right: 7px;
+}
+
+#block-locale-language h2 {
+    display: none;
+}
+
+.language-switcher-locale-url li img {
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+/*
+******************************************************** Navigation
+*/
+#navigation {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted black;
+    background: #fff;
+    height: 39px;
+}
+
+#navigation h2 {
+    display: none;
+}
+
+/*
+******************************************************** Main menu
+*/
+#main-menu {
+    font-size: 18px;
+    background-color: #d9012a;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+}
+
+#main-menu li {
+    background: #d9012a url(/sites/all/themes/drupster/images/border.png) no-repeat right center;
+    display: inline-block;
+    padding: 0 15px 0 5px;
+    margin: 0;
+}
+
+#main-menu li.first {
+    margin-left: 10px;
+}
+
+#main-menu li a {
+    text-decoration: none;
+    padding: 10px 0 10px 0;
+    display: inline-block;
+    color: white;
+}
+
+#main-menu li a:hover {
+    color: #000;
+}
+
+#main-menu li a.active {
+    color: #000;
+}
+
+/*
+******************************************************** Content
+*/
+#content {
+}
+
+#content h1 {
+    font-size: 25px;
+    font-weight: normal;
+    padding-top: 0;
+    line-height: 31px;
+    margin-bottom: 20px;
+}
+
+/* hide submitted info for content */
+#content .submitted {
+    display: none;
+}
+
+/* hide language info for contente */
+#content .form-type-item {
+    display: none;
+}
+
+/*
+******************************************************** Footer
+*/
+#footer {
+    padding-bottom: 20px;
+}
+
+#footer {
+    background: #eee;
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#footer ul.separators {
+    margin-bottom: 10px;
+}
+
+.separators li {
+    display: inline;
+}
+
+.separators li span {
+    display: inline;
+}
+
+.separators li div  {
+    border-right: 1px solid #000;
+    margin-right: 6px;
+    display: inline;
+    padding-right: 8px;
+}
+
+.separators div.views-row-last {
+    border: none;
+}
+
+ul li.translation_en, ul li.translation_pl  {
+    display: none;
+}
+
+.view .item-list ul {
+    list-style-type: disc;
+    line-height: 24px;
+}
+
+.block-views h2 {
+    margin-bottom: 14px;
+}
+
+/*
+******************************************************** Homesite
+*/
+.front #block-views-dabster-technology-block-1 {
+    
+    background: #eee;
+    padding: 10px;
+}
+
+.front #block-views-dabster-technology-block-1 h2 {
+    font-size: 20px;
+}
+
+.front .region-content .block-block p {
+    line-height: 30px;
+    font-size: 21px;
+    padding: 20px 12px 12px 12px;
+}
+
+.front h1.title {
+    display: none;
+}
+
+/*
+******************************************************** Slideshow
+*/
+.views_slideshow_main .views_slideshow_slide {
+    width: 266px;
+    text-align: center;
+}
+
+.views_slideshow_main .views_slideshow_slide img {
+    border: 4px solid #444;
+    margin-bottom: 10px;
+}
+
+/*
+******************************************************** About page
+*/
+#about-content {
+    float: left;
+    width: 580px;
+}
+
+#about-photo {
+    float: right;
+    width: 300px;
+}
+
+#about-photo img {
+    width: 300px;
+    height: 200px;
+    margin: 20px 0 10px 0;
+}
+
+#about-bottom {
+    clear: both;
+}
+
+/*
+******************************************************** Project page
+*/
+.node-dabster-project .field {
+}
+
+.node-dabster-project .field-name-body {
+}
+
+.node-dabster-project .field-name-field-reference-technologies {
+}
+
+.node-dabster-project .field-name-field-reference-services {
+}
+
+.field-name-field-client {
+    margin-bottom: 12px;
+}
+
+.field-name-field-client .field-label {
+    display: inline-block;
+}
+
+.field-name-field-client .field-items {
+    display: inline-block;
+}
+
+.node-dabster-project .field-type-image {
+    border: 4px solid #444;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#project-photos {
+    /*text-align: center;*/  
+    margin-bottom: 20px;
+    /*width: 100%;*/
+    /*float: left;*/
+}
+
+#project-photos img {
+    float: left;
+}
+
+#project-photos .field-label {
+    display: none;
+
+}
+
+.block-views h2 {
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+#project-main {
+    margin-bottom: 20px;
+    border-bottom: 1px dotted #000;
+}
+
+#project-references h2 {
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+#project-references .field-label {
+    display: none;
+}
+
+#project-references .field {
+    margin-bottom: 10px;
+}
+
+#project-references  div.field-item {
+    margin-bottom: 0;
+}
+
+#project-references  div.field-item img {
+    float: left;
+}
+
+/*
+******************************************************** Service page
+*/
+
+.node-service .aside-column .field .field-item {
+    margin-bottom: 0;
+}
+
+.node-service .field-type-image {
+    border: 4px solid #444;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#service-photos {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#service-photos img {
+    float: left;
+}
+
+#service-photos .field-label {
+    display: none;
+}
+
+#service-main {
+    margin-bottom: 20px;
+    border-bottom: 1px dotted #000;
+}
+
+#service-references h2 {
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.field-name-field-service-group {
+    display: none;
+}
+
+/*
+******************************************************** Technology page
+*/
+
+#technology-aside .field .field-item {
+    background: lime;
+    margin-bottom: 0;
+}
+
+.node-dabster-technology .field-type-image {
+    border: 4px solid #444;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#technology-photos {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#technology-photos img {
+    float: left;
+}
+
+#technology-photos .field-label {
+    display: none;
+}
+
+#technology-main {
+    margin-bottom: 20px;
+    border-bottom: 1px dotted #000;
+}
+
+#technology-references h2 {
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.field-name-field-service-group {
+    display: none;
+}
+
+/*
+******************************************************** Contact page
+*/
+
+.page-contact h1 {
+    font-size: 25px;
+    font-weight: normal;
+    padding-top: 0;
+    line-height: 31px;
+    margin-bottom: 20px;
+}
+
+.page-contact #content {
+    width: 350px;
+}
+
+.page-contact #content form {
+    width: 100%;
+}
+
+.page-contact #content .form-text {
+    width: 340px;
+}
+
+.page-contact #content .form-textarea-wrapper {
+    width: 350px;
+}
+
+/*
+******************************************************** Content types
+*/
+.aside-column .field .field-label {
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.aside-column .field .field-item {
+    margin-bottom: 8px;
+}
+
+.field-name-body {
+    line-height: 16px;
+    margin-bottom: 30px;
+}
+
+.field-name-body ul {
+    list-style-type: disc;
+    margin-left: 30px;
+    line-height: 20px;
+}
+
+.field-name-body ul li {
+    padding-left: 4px;
+}

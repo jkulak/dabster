@@ -1,0 +1,110 @@
+
+/**
+ * @file
+ * Stark layout method
+ *
+ * To avoid obscuring CSS added to the page by Drupal or a contrib module, the
+ * Stark theme itself has no styling, except just enough CSS to arrange the page
+ * in a traditional "Header, sidebars, content, and footer" layout.
+ *
+ * This layout method works reasonably well, but shouldn't be used on a
+ * production site because it can break. For example, if an over-large image
+ * (one that is wider than 20% of the viewport) is in the left sidebar, the
+ * image will overlap with the #content to the right. The exception to this
+ * is IE6 which will just hide the navigation block completely in these
+ * instances due to a positioning bug.
+ */
+
+#content,
+#sidebar-first,
+#sidebar-second,
+.triptych {
+  float: left;
+  display: inline;
+  position: relative;
+}
+
+#content {
+  width: 100%;
+}
+
+body.sidebar-first #content {
+  width: 80%;
+  left: 20%; /* LTR */
+}
+
+body.sidebar-second #content {
+  width: 67%;
+}
+
+body.two-sidebars #content {
+  width: 47%;
+  left: 20%;
+}
+
+#sidebar-first {
+  width: 20%;
+  left: -80%; /* LTR */
+}
+
+body.two-sidebars #sidebar-first {
+  left: -47%; /* LTR */
+}
+
+#sidebar-second {
+  float: right; /* LTR */
+  width: 30%;
+}
+
+body.page-contact #content {
+  width: 40%;
+}
+
+.page-contact #sidebar-second {
+  width: 56%;
+}
+
+.region-header {
+  float: right;
+  width: 220px;
+}
+
+.region-slogan {
+  float: left;
+  width: 390px;
+}
+
+#triptych .triptych {
+  width: 30%;
+  margin: 0 1% 0 0;
+}
+
+#triptych #triptych-middle {
+  width: 32%;
+  border: 1px dotted #000;
+  border-width: 0 1px;
+  padding: 0 1%;
+  min-height: 370px;
+}
+
+.main-column {
+  float: left;
+  width: 590px;
+  border-right: 1px dotted #333;
+  margin-right: 10px;
+  padding-right: 10px;
+
+}
+
+.aside-column {
+  float: right;
+  width: 285px;
+}
+
+.aside-block {
+  margin-bottom: 20px;
+}
+
+.aside-block .field-label {
+  margin-bottom: 8px;
+}
